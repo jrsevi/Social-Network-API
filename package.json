@@ -4,24 +4,25 @@
     "description": "",
     "main": "server.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node server.js",
-      "watch": "nodemon server.js"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js",
+        "watch": "nodemon server.js"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/jrsevi/Social-Network-API.git"
+        "type": "git",
+        "url": "git+https://github.com/jrsevi/Social-Network-API.git"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/jrsevi/Social-Network-API.git/issues"
+        "url": "https://github.com/jrsevi/Social-Network-API.git/issues"
     },
     "homepage": "https://github.com/jrsevi/Social-Network-API.git#readme",
     "dependencies": {
-      "express": "^4.18.1",
-      "moment": "^2.29.3",
-      "mongoose": "^6.3.4"
+        "express": "^4.18.1",
+        "moment": "^2.29.3",
+        "mongodb": "^6.6.0",
+        "mongoose": "^6.12.8"
     }
-  }
+}
